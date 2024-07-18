@@ -1,0 +1,435 @@
+
+
+* {
+    margin: 0;
+    padding:0;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+
+
+background: url(img/New\ Project\ \(5\).jpg) no-repeat center;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+   }
+   .content{
+       min-height: 80px;
+       
+       background:  linear-gradient(
+           90deg,
+           rgba(40, 42, 55, 1)0%,
+           rgba(40, 42, 55, 1) 70%
+   
+   
+   
+           );
+           
+    }
+    .logo{
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+    }
+    .menu{
+      position: absolute;
+      top: 10px;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+    }
+   .menu .navbar ul li{
+       position: relative;
+       float: left;
+   }
+   .menu .navbar ul li a{
+       font-size: 18px;
+       padding: 20px;
+       color: #dedede;
+       display: block;
+       font-weight: bold;
+       position: relative;
+   
+   }
+   .menu .navbar ul li a:hover{
+       color: #ffffff;
+   
+   }
+   .navbar li a{
+       color: #fff;
+       font-size: 28px;
+       position: relative;
+       transform: all .4s;
+      
+    }
+    
+   
+   #menu{
+       display: none;
+   }
+   .menu-icono{
+      width: 25px;
+      margin-bottom: 50px;
+   }
+   .menu label{
+       cursor: pointer;
+       display: none;
+   }
+   @media (max-width:991px){
+        .content{
+           min-height: 70px;
+        }
+        .menu{
+           top: 0;
+           padding: 20px;
+        }
+        .menu label{
+           display: initial;
+        }
+        .menu .navbar{
+           position: absolute;
+           top: 50%;
+           left: 0;
+           right: 0;
+           background:  linear-gradient(
+               90deg,
+               rgba(40, 42, 55, 1)0%,
+               rgba(40, 42, 55, 1) 70%
+       
+       
+       
+               );
+               display: none;
+         
+        }
+        .navbar{
+            margin: -10px;
+            width: 422px;
+            
+     
+            
+          }
+        .logoo{
+            display: flex;
+           margin-top: -50px;
+           margin-left: -40px;
+           }
+        .menu .navbar ul li{
+           width: 100%;
+           margin: 10px;
+        }
+        #menu:checked ~ .navbar{
+           display: initial;
+           margin-bottom: 100px;
+        }
+      
+   }
+   .navbarr:hover::after,
+   .navbar:focus::after{
+       /* background: linear-gradient(45deg, #acc9ff,#0059ff); */
+       opacity: 1;
+               
+       background:  linear-gradient(
+           90deg,
+           rgb(65, 70, 105)0%,
+           rgb(62, 68, 109) 70%
+   
+   
+   
+           );
+      }
+      .navbar2:hover::after,
+      .navbar:focus::after{
+       /* background: linear-gradient(45deg, #acc9ff,#0059ff); */
+       opacity: 1;
+         
+       background:  linear-gradient(
+           90deg,
+           rgb(65, 70, 105)0%,
+           rgb(62, 68, 109) 70%
+   
+   
+   
+           );
+           
+      }
+      .navbar3:hover::after,
+      .navbar:focus::after{
+       /* background: linear-gradient(45deg, #acc9ff,#0059ff); */
+       opacity: 1;
+          
+
+      }
+      .navbar4:hover::after,
+      .navbar:focus::after{
+       /* background: linear-gradient(45deg, #acc9ff,#0059ff); */
+       opacity: 1;
+          
+       background:  linear-gradient(
+           90deg,
+           rgb(65, 70, 105)0%,
+           rgb(62, 68, 109) 70%
+   
+   
+   
+           );
+           
+      }
+      .navbar5:hover::after,
+      .navbar:focus::after{
+       /* background: linear-gradient(45deg, #acc9ff,#0059ff); */
+       opacity: 1;
+          
+       background:  linear-gradient(
+           90deg,
+           rgb(65, 70, 105)0%,
+           rgb(62, 68, 109) 70%
+   
+   
+   
+           );
+           
+   
+      }
+   
+   
+      .navbarr::after
+      {
+   content: '';
+   height: 4px;
+   width: 100%;
+   background-color: rgb( 0, 183, 255);
+   position: absolute;
+   left: 0;
+   bottom: -3px;
+   opacity: 0;
+   transition: all 0.2s;
+   pointer-events: none;
+      } 
+      .navbar2:after{
+       content: '';
+       height: 4px;
+       width: 100%;
+       background-color: rgb( 0, 183, 255);
+       position: absolute;
+       left: 0;
+       bottom: -3px;
+       opacity: 0;
+       transition: all 0.2s;
+       pointer-events: none;
+          } 
+          .navbar3:after{
+           content: '';
+           height: 4px;
+           width: 100%;
+           background-color: rgb( 0, 183, 255);
+           position: absolute;
+           left: 0;
+           bottom: -3px;
+  
+           transition: all 0.2s;
+           pointer-events: none;
+              } 
+              .navbar4:after{
+               content: '';
+               height: 4px;
+               width: 100%;
+               background-color: rgb( 0, 183, 255);
+               position: absolute;
+               left: 0;
+               bottom: -3px;
+               opacity: 0;
+               transition: all 0.2s;
+               pointer-events: none;
+                  } 
+                  .navbar5:after{
+                   content: '';
+                   height: 4px;
+                   width: 100%;
+                   background-color: rgb( 0, 183, 255);
+                   position: absolute;
+                   left: 0;
+                   bottom: -3px;
+                   opacity: 0;
+                   transition: all 0.2s;
+                   pointer-events: none;
+                      } 
+   
+   
+   
+
+
+.logo{
+    margin-left:0px ;
+    
+
+}
+.logo img{
+    height: 90px;
+    padding: 10px;
+    
+}
+
+.logo a {
+    
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+ 
+}
+p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 100px;
+}
+.btn {
+
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #acc9ff;
+    color: #ffffff;
+    text-decoration: none;
+    background: #6964ff;
+}
+.logo23{
+    height: 200px;
+}
+.li{
+    color: #fff;
+}
+
+
+
+
+
+
+.contact{
+    padding: 50px 0;
+    background: #171717;
+
+}
+.footer-section{
+    display: flex;
+}
+.f-enlaces{
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+    margin-top: 50px;
+}
+.f-enlaces a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+
+
+}
+.logo2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    margin-left: -100px;
+ }
+@media (max-width: 768px) {
+    p{
+     padding: 0 50px;
+    }
+     .lii{
+         margin-bottom: 0px;
+         font-size: 40px;
+ 
+     }
+     .logo2{
+        display: none;
+     }
+     .liii{
+         margin-top: 150px;
+     }
+ 
+     .sau{
+         height: 100vh;
+         padding: 50px 0;
+     }
+     .about{
+         height: 100vh;
+         padding: 50px 0;
+     }
+     .footer-section{
+         display: flex;
+         flex-direction: column;
+     }
+     .f-enlaces{
+         display: none;
+     }
+     .logooo{
+        display: flex;
+       margin-top: -50px;
+       margin-left: -40px;
+       }
+    
+     .btn{
+         margin-bottom: 150px;
+     }
+     .video{
+        width:380px ;
+        height:280px;
+       }
+       .title{
+        font-size: 40px;
+     }
+       .numero{
+        display: none;
+       }
+       .mapa{
+        width: 200px;
+        text-align: center;
+
+        padding-left: 100px;
+       }
+       .logoo{
+        display: flex;
+       margin-top: -50px;
+       margin-left: -40px;
+       }
+ }
+ .banner{
+    position: sticky;
+    top: 0;
+ }
+    
